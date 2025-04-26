@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Panel - BD Warriors Cup</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Admin Panel</h1>
+    </header>
+
+    <section class="admin-panel">
+        <h2>Registered Players</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Player Name</th>
+                    <th>Game UID</th>
+                    <th>Team Name</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Demo Player</td>
+                    <td>123456789</td>
+                    <td>BD Warriors</td>
+                    <td>player@example.com</td>
+                </tr>
+                <!-- Future registrations will show here -->
+            </tbody>
+        </table>
+    </section>
+
+    <footer>
+        <p>© 2025 BD Warriors Cup. All rights reserved.</p>
+    </footer>
+</body>
+</html>
