@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register - BD Warriors Cup</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>BD Warriors Cup Registration</h1>
+    </header>
+
+    <section class="registration-form">
+        <h2>Register Now</h2>
+        <form action="#" method="POST">
+            <input type="text" name="player_name" placeholder="Enter Your Name" required><br>
+            <input type="text" name="game_uid" placeholder="Enter Your Game UID" required><br>
+            <input type="text" name="team_name" placeholder="Enter Your Team Name" required><br>
+            <input type="email" name="email" placeholder="Enter Your Email" required><br>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2025 BD Warriors Cup. All rights reserved.</p>
+    </footer>
+</body>
+</html>
