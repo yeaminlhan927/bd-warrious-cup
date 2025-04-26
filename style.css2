@@ -1,0 +1,33 @@
+.registration-form {
+    background: #222;
+    padding: 30px;
+    margin: 50px auto;
+    width: 90%;
+    max-width: 400px;
+    border-radius: 15px;
+}
+
+.registration-form input, .registration-form button {
+    width: 90%;
+    margin: 10px 0;
+    padding: 12px;
+    font-size: 1em;
+    border: none;
+    border-radius: 8px;
+}
+
+.registration-form input {
+    background: #333;
+    color: white;
+}
+
+.registration-form button {
+    background: #ff4500;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.registration-form button:hover {
+    background: #e63900;
+}
