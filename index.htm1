@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BD WARRIORS CUP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>BD WARRIORS CUP</h1>
+        <p>আগুন একশন গেমিং স্টাইল</p>
+    </header>
+
+    <section class="countdown">
+        <h2>Tournament Starts In:</h2>
+        <div id="timer">
+            <span id="days">00</span> Days 
+            <span id="hours">00</span> Hours 
+            <span id="minutes">00</span> Minutes 
+            <span id="seconds">00</span> Seconds
+        </div>
+    </section>
+
+    <section class="register">
+        <a href="#" class="register-button">Register Now</a>
+    </section>
+
+    <footer>
+        <p>© 2025 BD Warriors Cup. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Countdown Timer Script
+        var countDownDate = new Date();
+        countDownDate.setDate(countDownDate.getDate() + 7); // ৭ দিন পর স্টার্ট
+
+        var x = setInterval(function() {
+            var now = new Date().getTime();
+            var distance = countDownDate - now;
+
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            document.getElementById("days").innerHTML = days;
+            document.getElementById("hours").innerHTML = hours;
+            document.getElementById("minutes").innerHTML = minutes;
+            document.getElementById("seconds").innerHTML = seconds;
+
+            if (distance < 0) {
+                clearInterval(x);
+                document.getElementById("timer").innerHTML = "Tournament Started!";
+            }
+        }, 1000);
+    </script>
+</body>
+</html>
