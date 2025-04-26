@@ -1,0 +1,28 @@
+.admin-panel {
+    background: #222;
+    padding: 30px;
+    margin: 50px auto;
+    width: 95%;
+    max-width: 800px;
+    border-radius: 15px;
+    color: white;
+}
+
+.admin-panel table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.admin-panel th, .admin-panel td {
+    border: 1px solid #555;
+    padding: 10px;
+    text-align: center;
+}
+
+.admin-panel th {
+    background: #ff4500;
+}
+
+.admin-panel tr:nth-child(even) {
+    background: #333;
+}
