@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rules - BD Warriors Cup</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>BD Warriors Cup Tournament Rules</h1>
+    </header>
+
+    <section class="rules-section">
+        <h2>Important Rules</h2>
+        <ul>
+            <li>Squad Size: 4 Players (No solo or duo)</li>
+            <li>Only Bangladeshi players are allowed.</li>
+            <li>Hack/Cheat = Direct BAN!</li>
+            <li>Be respectful to all players and organizers.</li>
+            <li>Match schedule must be followed strictly.</li>
+            <li>Final decision by the Admin is the last decision.</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>© 2025 BD Warriors Cup. All rights reserved.</p>
+    </footer>
+</body>
+</html>
