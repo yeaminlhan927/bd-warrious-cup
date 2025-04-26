@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Prize Pool - BD Warriors Cup</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>BD Warriors Cup Prize Pool</h1>
+    </header>
+
+    <section class="prize-section">
+        <h2>Win Big!</h2>
+        <ul>
+            <li><strong>Champion Team:</strong> ৳5,000 + Trophy</li>
+            <li><strong>2nd Place Team:</strong> ৳2,500</li>
+            <li><strong>3rd Place Team:</strong> ৳1,000</li>
+            <li><strong>Top Fragger:</strong> ৳500 Bonus</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>© 2025 BD Warriors Cup. All rights reserved.</p>
+    </footer>
+</body>
+</html>
